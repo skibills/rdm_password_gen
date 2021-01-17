@@ -2,6 +2,6 @@
 
 Random Passwords Generator.
 
-Any amount of charachters using symbols, numbers & letters.
+Any amount of characters using symbols, numbers & letters.
 
 Simple beginner project. Ground zero.
