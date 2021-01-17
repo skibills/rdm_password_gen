@@ -5,13 +5,13 @@ print('Welcome to Password Generator!')
 
 length = int(input('\nEnter the length of Password: '))             #generator
 
-lower = string.ascii_lowercase                  #lowercase letters
-upper = string.ascii_uppercase                  #uppercase letters
-num = string.digits                             #numbers
-symbols = string.punctuation                    #symbols
+lower = string.ascii_lowercase                  
+upper = string.ascii_uppercase                  
+num = string.digits                             
+symbols = string.punctuation                    
 
-all = lower + upper + num + symbols             #all variable for randomizing
+all = lower + upper + num + symbols             
 
-temp = random.sample(all, length)               #random using the variable upper, lower, numbers, symbols
-password = "".join(temp)                        #result (integer value) using randoms from the variables
+temp = random.sample(all, length)               
+password = "".join(temp)                        
 print(password)                                 #display result
